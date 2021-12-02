@@ -19,10 +19,7 @@ The fleet consists of 10 ships. The fleet is made up of 4 different types of shi
 - Three destroyers, each occupying 2 squares
 - Four submarines, each occupying 1 square
 
-![ships](https://www.dcs.bbk.ac.uk/~vlad/pop1/project2021/battleships.PNG)
-
-To begin the game, the computer places all the 10 ships of the fleet in the ocean randomly. Each ship can be placed either horizontally (as shown in the figure above) or vertically. Moreover, no ships may be immediately adjacent to each other, either horizontally, vertically, or diagonally. Examples of legal and illegal arrangements are shown below:
-![legal and illegal arrangements](https://www.dcs.bbk.ac.uk/~vlad/pop1/project2021/arrangement.PNG)
+To begin the game, the computer places all the 10 ships of the fleet in the ocean randomly. Each ship can be placed either horizontally (as shown in the figure above) or vertically. Moreover, no ships may be immediately adjacent to each other, either horizontally, vertically, or diagonally.
 
 The human player does not know where the ships are. The human player tries to hit the ships, by calling out a row and column number. The computer responds with one bit of information--"You have a hit!" or "You missed!" (Note that the human player can call out the same location more than once, even though it does not make sense. If that happens, 2nd, 3rd, ... calls of the same location are misses.) When a ship is hit but not sunk, the program does  **not**  provide any information about what kind of a ship was hit. However, when a ship is hit  _and_  sinks, the program prints out a message  `"You sank a  _ship-type_!"`  
 
